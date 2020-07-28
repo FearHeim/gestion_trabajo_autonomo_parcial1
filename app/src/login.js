@@ -18,7 +18,7 @@ function game(){
                 console.log("Registrado")
                 location.href="inicio.html"
             }).catch(function(a) {
-                alert("Ocurrió un error")
+                alert("Ocurrió un error, revise sus datos")
                 location.reload();
             })
     

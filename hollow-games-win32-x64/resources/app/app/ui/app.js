@@ -125,7 +125,7 @@ ipcRenderer.on("new-task-created", (e, arg) => {
   tasks.push(taskSaved);
   console.log(tasks);
   renderTasks(tasks);
-  alert("Task Created Successfully");
+  alert("Juego guardado correctamente");
   Nom_juego.focus();
 });
 
