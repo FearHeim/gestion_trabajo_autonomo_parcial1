@@ -16,6 +16,7 @@
     "mongoose": "^5.9.26"
   },
   "devDependencies": {
-    "electron-builder": "^22.8.0"
+    "electron": "^8.4.1",
+    "mongoose": "^5.9.26"
   }
 }
