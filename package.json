@@ -1,14 +1,16 @@
 {
-  "name": "electron-mongodb-crud",
+  "name": "hollow-games",
   "version": "1.0.0",
-  "description": "",
+  "description": "Gestor de juegos",
   "main": "app/index.js",
   "scripts": {
     "start": "electron ."
+    
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "@FearHeim @KingNoir",
+  "license": "MIT",
+  
   "dependencies": {
     "electron": "^8.4.1",
     "mongoose": "^5.9.26"

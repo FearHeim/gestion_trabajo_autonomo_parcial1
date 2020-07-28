@@ -1,0 +1,21 @@
+{
+  "name": "hollow-games",
+  "version": "1.0.0",
+  "description": "Gestor de juegos",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "electron ."
+    
+  },
+  "keywords": [],
+  "author": "@FearHeim @KingNoir",
+  "license": "MIT",
+  
+  "dependencies": {
+    "electron": "^8.4.1",
+    "mongoose": "^5.9.26"
+  },
+  "devDependencies": {
+    "electron-builder": "^22.8.0"
+  }
+}

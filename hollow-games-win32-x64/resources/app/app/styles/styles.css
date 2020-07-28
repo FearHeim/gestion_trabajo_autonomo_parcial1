@@ -1,0 +1,45 @@
+
+body{
+    background-color: rgb(15, 15, 15);
+    
+}
+
+
+
+
+header{
+    background-color: #000000;
+    font-family: 'Ubuntu', sans-serif;
+    height: 80px;
+    width: 100%;
+   
+}
+
+
+
+
+.logo{
+    width: 55px;
+    margin-top: 11px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 10px;
+    background: #1f1f1f;
+}
+::-webkit-scrollbar-thumb{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+}
+
+
+.creditos{
+     
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+
+}
