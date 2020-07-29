@@ -5,18 +5,13 @@
   "main": "app/index.js",
   "scripts": {
     "start": "electron ."
-    
   },
   "keywords": [],
   "author": "@FearHeim @KingNoir",
   "license": "MIT",
-  
   "dependencies": {
     "electron": "^8.4.1",
     "mongoose": "^5.9.26"
   },
-  "devDependencies": {
-    "electron": "^8.4.1",
-    "mongoose": "^5.9.26"
-  }
+  "devDependencies": {}
 }
