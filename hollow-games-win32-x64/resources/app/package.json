@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "electron": "^8.4.1",
+    "electron-packager": "^15.0.0",
     "mongoose": "^5.9.26"
   },
   "devDependencies": {}
