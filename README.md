@@ -50,7 +50,7 @@ Luego procederemos a ingresar con nuestro usuario y listo
 ### Ventana principal
 Estando en la ventana principal nos encontraremos con un menú con las opciones "Agregar juego", "Listar juegos" y "Salir"
 
-![principal](https://cdn.discordapp.com/attachments/513089425966628865/737755553627111534/unknown.png)
+![principal](https://cdn.discordapp.com/attachments/513089425966628865/737833479055737023/unknown.png)
 
 
 ![botones](https://media.discordapp.net/attachments/513089425966628865/737755844191453185/unknown.png)
