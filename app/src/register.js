@@ -8,6 +8,7 @@ singupForm.addEventListener('submit', e=>{
     const password = document.querySelector('#Singin-password').value;
     e.preventDefault();
 
+    //
     auth
         .createUserWithEmailAndPassword(email, password)
         .then(userCredential=>{

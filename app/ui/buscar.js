@@ -15,6 +15,8 @@ const taskList = document.querySelector("#taskList");
 let updateStatus = false;
 let idTaskToUpdate = "";
 
+//Se crean los métodos para la consulta
+
 function deleteTask(id) {
   const response = confirm("¿Deseas borrar?");
   if (response) {
