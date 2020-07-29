@@ -15,7 +15,7 @@ singupForm.addEventListener('submit', e=>{
             alert("Registrado con exito, procede a loguearte")
             location.href="login.html"
         }).catch(function(a) {
-            alert("Ocurrió un error")
+            alert("El usuario ingresado ya existe")
         })
     
 })
