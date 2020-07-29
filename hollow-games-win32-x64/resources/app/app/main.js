@@ -1,6 +1,8 @@
+//Llamamos al paquete electron, necesario para crear la aplicación web como de escritorio
 const { BrowserWindow, ipcMain } = require("electron");
 const Task = require("./models/Task");
 
+//Creamos las ventana
 function createWindow() {
   const win = new BrowserWindow({
     width: 500,
@@ -10,8 +12,12 @@ function createWindow() {
     }
   });
 
+  //Cargamos la ventana que queremos mostrar inicialmente, es un archivo html
   win.loadFile("app/principal.html");
 }
+
+//A continuación vemos los métodos para la realización del CRUD
+//Recordar que el paso de datos el por medio de web sockets (de esta manera funciona electron)
 
 ipcMain.on("new-task", async (e, arg) => {
   const newTask = new Task(arg);
@@ -40,4 +46,5 @@ ipcMain.on("update-task", async (e, args) => {
   e.reply("update-task-success", JSON.stringify(updatedTask));
 });
 
+//Se exporta el metodo para crear ventanas
 module.exports = { createWindow };

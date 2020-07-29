@@ -2,11 +2,11 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hollow Games</title>
-  <link rel="stylesheet" href="ui/app.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hollow Games</title>
+    <link rel="stylesheet" href="ui/app.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 </head>
@@ -15,148 +15,155 @@
 
 <body class="bg-dark">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 
-    <a class="navbar-brand " href="inicio.html">Inicio</a>
-  
-    <div class="container">
-  
-  
-        <div class="collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto ">
-  
-              
-                <li class="nav-item">
-                    <a class="nav-link" href="list.html">Mostrar lista de juegos</a>
-                </li>
-                
-                <li class="nav-item">
-                    <a id="logout" class="nav-link" href="register.html">Salir</a>
-                </li>
-  
-            </ul>
+        <a class="navbar-brand " href="inicio.html">Inicio</a>
+
+        <div class="container">
+
+
+            <div class="collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto ">
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="list.html">Mostrar lista de juegos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a id="logout" class="nav-link" href="register.html">Salir</a>
+                    </li>
+
+                </ul>
+            </div>
+
         </div>
-  
-    </div>
-  </nav>
-  
-  <h1 style="color: aliceblue;">Ingresa un juego</h1>
+    </nav>
 
-  <form id="taskForm" class="card bg-secondary">
+    <h1 style="color: aliceblue;">Ingresa un juego</h1>
 
-                
-    <div class="grupo">
-        <label class="label1  text-white font-weight-bold">Nombre del juego</label>
+    <form id="taskForm" class="card bg-secondary">
+
+
+        <div class="grupo">
+            <label class="label1  text-white font-weight-bold">Nombre del juego</label>
+            <br>
+            <input style=" background-color:transparent !important; border-color:black !important; outline: none;"
+                type="text" name="Nom_juego" id="Nom_juego" required><span class="barra"></span>
+        </div>
         <br>
-        <input style=" background-color:transparent !important; border-color:black !important; outline: none;" type="text" name="Nom_juego" id="Nom_juego" required><span class="barra"></span>
-    </div>
-    <br>
-    <div class="grupo">
-        <label class="label1  text-white font-weight-bold">Descripción</label>
+        <div class="grupo">
+            <label class="label1  text-white font-weight-bold">Descripción</label>
+            <br>
+            <input style=" background-color:transparent !important; border-color:black !important; outline: none;"
+                type="text" name="Des_juego" id="Des_juego" required><span class="barra"></span>
+        </div>
         <br>
-        <input style=" background-color:transparent !important; border-color:black !important; outline: none;" type="text" name="Des_juego" id="Des_juego" minlength="6" required><span class="barra"></span>
-    </div>
-    <br>
-    <div class="grupo">
-        <label class="label1  text-white font-weight-bold">Género</label><br>
-        <select class="estado_select bg-dark text-white" type="select" id="Genr_juego" name="Genr_juego">   
-            <option class="estado" value="">Seleccione uno</option>
-            <option id="aprobado" value="accion">Accion</option>
-            <option id="rechazado" value="aventura">Aventura</option>
-            <option id="modificar" value="carreras">Carreras</option>
-            <option id="modificar" value="deportes">Deportes</option>
-            <option id="modificar" value="estrategia">Estrategia</option>
-            <option id="modificar" value="mmorpg">MMORPG</option>
-            <option id="modificar" value="rol">Rol</option>
-            <option id="modificar" value="simuladores">Simuladores</option>
-            <option id="modificar" value="fps">FPS</option>
-            <option id="modificar" value="novela visual">Novela visual</option>
-            <option id="modificar" value="shooter isometrico">Shooter isometrico</option>
-            <option id="modificar" value="shooter en 3ra persona">Shooter en 3ra persona</option>
-            <option id="modificar" value="lucha">Luchas</option>
-            
-        </select>
-    </div>
-    <br>
-    <div class="grupo">
-        <label class="label1  text-white font-weight-bold">Plataforma</label><br><br>
-        <select name="Plat_juego" class="estado_select bg-dark  text-white" type="select" id="Plat_juego">   
-            <option class="estado" value="">Seleccione uno</option>
-            <option id="Windows" value="Windows">Windows</option>
-            <option id="Linux" value="Linux">Linux</option>
-            <option id="MAC" value="MAC">MAC</option>
-            <option id="Android" value="Android">Android</option>
-            <option id="Ios" value="Ios">Ios</option>
-            <option id="play" value="Play Station">Play Station</option>
-            <option id="xbox" value="Xbox">Xbox</option>
-            
-        </select>
-    </div>
-    <br>
-    <div class="grupo">
-        <label class="label1  text-white font-weight-bold">Cantidad de jugadores</label><br>
-        <select name="Num_juego" class="estado_select bg-dark  text-white" type="select" id="Num_juego" >   
-            <option class="estado" value="">Seleccione uno</option>
-            <option id="solo" value="Un jugador">Un jugador</option>
-            <option id="multi" value="Multijugador">Multijugador</option>
-            <option id="pvponline" value="JcJ en línea">JcJ en línea</option>
-            <option id="pvplan" value="JcJ en LAN">JcJ en LAN</option>
-            <option id="coop" value="Cooperativo en línea">Cooperativo en línea</option>
-            <option id="cooplan" value="Cooperativo en LAN">Cooperativo en LAN</option>
-            <option id="coopscreen" value="Cooperativo en pantalla compartida">Cooperativo en pantalla compartida</option>
-            
-        </select>
-    </div>
-    <br>
-    <div class="grupo">
-        
-        <label  class=" text-white font-weight-bold" for="">Fecha de lanzamiento</label>
-        <input class="bg-dark text-white"  type="date" min="1980-01-01" max="2020-12-12" placeholder="Año" name="" id="Anio_juego" minlength="6" required><span class="barra"></span>
-    </div>
-    <br>
-    <div class="grupo">
-        <label class="label1  text-white font-weight-bold">Lenguaje</label><br>
-        <select name="Leng_juego" class="estado_select bg-dark  text-white" type="select" id="Leng_juego">   
-            <option class="estado" value="">Seleccione uno</option>
-            <option id="esp_latam" value="Español latino">Español latino</option>
-            <option id="esp_es" value="Español España">Español España</option>
-            <option id="en" value="Inglés">Inglés</option>
-            <option id="jap" value="Japonés">Japonés</option>
-            <option id="ger" value="Alemán">Alemán</option>
-            
-            
-        </select>
-        
-    </div>
-    <br>
-    
-    <div class="grupo">
-        <label class="label1  text-white font-weight-bold">Logros conseguidos</label><br> 
-        <input style=" background-color:transparent !important; border-color:black !important; outline: none;" type="number" name="Log_juego" id="Log_juego" minlength="6" required><span class="barra"></span>
-        
-    </div>
+        <div class="grupo">
+            <label class="label1  text-white font-weight-bold">Género</label><br>
+            <select class="estado_select bg-dark text-white" type="select" id="Genr_juego" name="Genr_juego">
+                <option class="estado" value="">Seleccione uno</option>
+                <option id="aprobado" value="accion">Accion</option>
+                <option id="rechazado" value="aventura">Aventura</option>
+                <option id="modificar" value="carreras">Carreras</option>
+                <option id="modificar" value="deportes">Deportes</option>
+                <option id="modificar" value="estrategia">Estrategia</option>
+                <option id="modificar" value="mmorpg">MMORPG</option>
+                <option id="modificar" value="rol">Rol</option>
+                <option id="modificar" value="simuladores">Simuladores</option>
+                <option id="modificar" value="fps">FPS</option>
+                <option id="modificar" value="novela visual">Novela visual</option>
+                <option id="modificar" value="shooter isometrico">Shooter isometrico</option>
+                <option id="modificar" value="shooter en 3ra persona">Shooter en 3ra persona</option>
+                <option id="modificar" value="lucha">Luchas</option>
 
-    <br>
-    <div class="grupo">
-        <label class="label1  text-white font-weight-bold">Valoración de usuario</label>
-        <p class="text-white">De 1 a 100</p>
-        <input style=" background-color:transparent !important; border-color:black !important; outline: none;" type="number" name="Valo_juego" id="Valo_juego" min="1" max="100" required><span class="barra"></span>
-    </div>
-   
-    <div></div>
+            </select>
+        </div>
+        <br>
+        <div class="grupo">
+            <label class="label1  text-white font-weight-bold">Plataforma</label><br><br>
+            <select name="Plat_juego" class="estado_select bg-dark  text-white" type="select" id="Plat_juego">
+                <option class="estado" value="">Seleccione uno</option>
+                <option id="Windows" value="Windows">Windows</option>
+                <option id="Linux" value="Linux">Linux</option>
+                <option id="MAC" value="MAC">MAC</option>
+                <option id="Android" value="Android">Android</option>
+                <option id="Ios" value="Ios">Ios</option>
+                <option id="Nintendo" value="Nintendo">Nintendo</option>
+                <option id="play" value="Play Station">Play Station</option>
+                <option id="xbox" value="Xbox">Xbox</option>
 
-    <br>
+            </select>
+        </div>
+        <br>
+        <div class="grupo">
+            <label class="label1  text-white font-weight-bold">Cantidad de jugadores</label><br>
+            <select name="Num_juego" class="estado_select bg-dark  text-white" type="select" id="Num_juego">
+                <option class="estado" value="">Seleccione uno</option>
+                <option id="solo" value="Un jugador">Un jugador</option>
+                <option id="multi" value="Multijugador">Multijugador</option>
+                <option id="pvponline" value="JcJ en línea">JcJ en línea</option>
+                <option id="pvplan" value="JcJ en LAN">JcJ en LAN</option>
+                <option id="coop" value="Cooperativo en línea">Cooperativo en línea</option>
+                <option id="cooplan" value="Cooperativo en LAN">Cooperativo en LAN</option>
+                <option id="coopscreen" value="Cooperativo en pantalla compartida">Cooperativo en pantalla compartida
+                </option>
+
+            </select>
+        </div>
+        <br>
+        <div class="grupo">
+
+            <label class=" text-white font-weight-bold" for="">Fecha de lanzamiento</label>
+            <input class="bg-dark text-white" type="date" min="1980-01-01" max="2020-12-12" placeholder="Año" name=""
+                id="Anio_juego" minlength="6" required><span class="barra"></span>
+        </div>
+        <br>
+        <div class="grupo">
+            <label class="label1  text-white font-weight-bold">Lenguaje</label><br>
+            <select name="Leng_juego" class="estado_select bg-dark  text-white" type="select" id="Leng_juego">
+                <option class="estado" value="">Seleccione uno</option>
+                <option id="esp_latam" value="Español latino">Español latino</option>
+                <option id="esp_es" value="Español España">Español España</option>
+                <option id="en" value="Inglés">Inglés</option>
+                <option id="jap" value="Japonés">Japonés</option>
+                <option id="ger" value="Alemán">Alemán</option>
 
 
-    <button type="submit" class="btn btn-secondary bg-dark text-white">
-      Guardar
-    </button>
-  </form>
+            </select>
 
-  <!-- Task List -->
-  <ul id="taskList"></ul>
+        </div>
+        <br>
 
-  <script src="ui/app.js"></script>
+        <div class="grupo">
+            <label class="label1  text-white font-weight-bold">Logros conseguidos</label><br>
+            <input style=" background-color:transparent !important; border-color:black !important; outline: none;"
+                type="number" name="Log_juego" id="Log_juego" minlength="6" required><span class="barra"></span>
+
+        </div>
+
+        <br>
+        <div class="grupo">
+            <label class="label1  text-white font-weight-bold">Valoración de usuario</label>
+            <p class="text-white">De 1 a 100</p>
+            <input style=" background-color:transparent !important; border-color:black !important; outline: none;"
+                type="number" name="Valo_juego" id="Valo_juego" min="1" max="100" required><span class="barra"></span>
+        </div>
+
+        <div></div>
+
+        <br>
+
+
+        <button type="submit" class="btn btn-secondary bg-dark text-white">
+            Guardar
+        </button>
+    </form>
+
+    <!-- Task List -->
+    <ul id="taskList"></ul>
+
+    <script src="ui/app.js"></script>
 </body>
 
 </html>

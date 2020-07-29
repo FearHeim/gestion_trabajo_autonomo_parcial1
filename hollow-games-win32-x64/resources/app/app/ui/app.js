@@ -1,5 +1,6 @@
 const { ipcRenderer } = require("electron");
 
+//Se llama al formulario de ingreso 
 const taskForm = document.querySelector("#taskForm");
 const Nom_juego = document.querySelector("#Nom_juego");
 const Des_juego = document.querySelector("#Des_juego");
@@ -14,6 +15,8 @@ const taskList = document.querySelector("#taskList");
 
 let updateStatus = false;
 let idTaskToUpdate = "";
+
+//A continuación se crean los métodos principales del crud
 
 function deleteTask(id) {
   const response = confirm("¿Deseas borrar?");

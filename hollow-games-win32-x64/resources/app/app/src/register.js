@@ -8,6 +8,7 @@ singupForm.addEventListener('submit', e=>{
     const password = document.querySelector('#Singin-password').value;
     e.preventDefault();
 
+    //
     auth
         .createUserWithEmailAndPassword(email, password)
         .then(userCredential=>{
@@ -15,7 +16,7 @@ singupForm.addEventListener('submit', e=>{
             alert("Registrado con exito, procede a loguearte")
             location.href="login.html"
         }).catch(function(a) {
-            alert("Ocurrió un error")
+            alert("El usuario ingresado ya existe")
         })
     
 })
