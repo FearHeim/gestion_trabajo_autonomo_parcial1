@@ -100,4 +100,4 @@ El programa fue desarrollado por:
 Estudiantes de la Facultad de Informática en la Universidad Laica Eloy Alfaro de Manabí.
 
 ## Instalación 🔧
-En este repositorio encontrarás la carpeta "hollow-games-win32-x64" dentro de esta podrás encontrar el archivo ejecutable de da aplicación (hollow-games.exe)
+En este repositorio encontrarás la carpeta "hollow-games-win32-x64" dentro de esta podrás encontrar el archivo ejecutable de la aplicación (hollow-games.exe)
