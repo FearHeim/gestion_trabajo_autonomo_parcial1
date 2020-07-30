@@ -6,10 +6,11 @@ Hollow Games es una página (ejecutada como aplicación de escritorio) que te pe
 En este repositorio encontrarás la carpeta "hollow-games-win32-x64", dentro de esta podrás encontrar el archivo ejecutable de la aplicación (hollow-games.exe).
 
 ### ¿Problemas con el ejecutable?
-Si tienes problemas al ejecutar el .exe clona el repositorio y en el terminal escribe los siguientes comandos.
+Si tienes problemas al ejecutar el .exe, clona el repositorio y en el terminal escribe los siguientes comandos:
 - npm i mongoose electron (se instalan los repositorios)
 - npm start (inicia el programa)
 
+Recuerda que son comandos que utilizan Node js*
 
 ## Construido con 🛠️
 Los paquetes y herramientas que utilizamos para desarrollar este programa son: 
