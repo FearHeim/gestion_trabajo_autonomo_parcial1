@@ -12,6 +12,11 @@ Si tienes problemas al ejecutar el .exe, clona el repositorio y en el terminal e
 
 Recuerda que son comandos que utilizan Node js*
 
+### Ruta alterna
+Si quieres realizar una prueba rápida, entra a este ejecutable alojado en MEGA, está comprobado que sirve, aunque es una versión desactualizada de la publicada actualmente.
+
+- https://mega.nz/file/7pphjBzb#tGq5EeIC1B4RKtebyeaJWzNizw3ca1FXBPWFpHeN2aA
+
 ## Construido con 🛠️
 Los paquetes y herramientas que utilizamos para desarrollar este programa son: 
 
