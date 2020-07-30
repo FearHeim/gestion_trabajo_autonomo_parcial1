@@ -2,6 +2,14 @@
 
 Hollow Games es una página (ejecutada como aplicación de escritorio) que te permitirá gestionar tus juegos de manera personal, podrás agregar los que estes jugando y editar los datos de estos.
 
+## Instalación 🔧
+En este repositorio encontrarás la carpeta "hollow-games-win32-x64", dentro de esta podrás encontrar el archivo ejecutable de la aplicación (hollow-games.exe).
+
+### ¿Problemas con el ejecutable?
+Si tienes problemas al ejecutar el .exe clona el repositorio y en el terminal escribe los siguientes comandos.
+- npm i mongoose electron (se instalan los repositorios)
+- npm start (inicia el programa)
+
 
 ## Construido con 🛠️
 Los paquetes y herramientas que utilizamos para desarrollar este programa son: 
@@ -99,10 +107,4 @@ El programa fue desarrollado por:
 
 Estudiantes de la Facultad de Informática en la Universidad Laica Eloy Alfaro de Manabí.
 
-## Instalación 🔧
-En este repositorio encontrarás la carpeta "hollow-games-win32-x64", dentro de esta podrás encontrar el archivo ejecutable de la aplicación (hollow-games.exe).
 
-### ¿Problemas con el ejecutable?
-Si tienes problemas al ejecutar el .exe clona el repositorio y en el terminal escribe los siguientes comandos.
-- npm i mongoose electron (se instalan los repositorios)
-- npm start (inicia el programa)
