@@ -101,3 +101,8 @@ Estudiantes de la Facultad de Informática en la Universidad Laica Eloy Alfaro d
 
 ## Instalación 🔧
 En este repositorio encontrarás la carpeta "hollow-games-win32-x64", dentro de esta podrás encontrar el archivo ejecutable de la aplicación (hollow-games.exe).
+
+### ¿Problemas con el ejecutable?
+Si tienes problemas al ejecutar el .exe clona el repositorio y en el terminal escribe los siguientes comandos.
+- npm i mongoose electron (se instalan los repositorios)
+- npm start (inicia el programa)
