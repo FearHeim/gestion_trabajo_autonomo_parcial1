@@ -10,7 +10,7 @@
   "author": "@FearHeim @KingNoir",
   "license": "MIT",
   "dependencies": {
-    "electron": "^8.4.1",
+    "electron": "^18.3.7",
     "electron-packager": "^15.0.0",
     "mongoose": "^5.9.26"
   },
